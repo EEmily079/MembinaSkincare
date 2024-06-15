@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membina Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class = "navbar">
+            <div class ="logo">
+                <img src="images/Logo.png" width = "250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="haircare.html">Hair Care</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                    <li><a href="bodycare.html">Body Care</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" width = "30px" height="30px">
+            <img src="images/menu.png" class = "menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </div>
+
+
+    <div class="image-container">
+        <h5>In Progress......</h5>
+        <img src="images/continueshopping.gif" width="350px">  
+    </div>
+      <!-------------------footer------------------>
+      <div class="footer">
+        <div class="footer-row">
+            <div style = "padding-bottom: 10px;">
+                <h5>
+                    မြရည်နန္ဒာအိမ်ယာ | မမ 28, တိုက် 30 |
+                    အခန်း 5, 45 x 118 (C) ဒေါင့်
+                    MANDALAY
+                </h5>
+                <h5>Phone - 09785096113 </h5>
+            </div>
+            <div>
+                <p>Follow us
+                    <a href="https://www.linkedin.com/in/emily-khaing/overlay/contact-info/">
+                   
+                        <img src="images/FBicon.webp" height = "25px" width="25px">  
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>Call us
+                    <a href="tel:+959785096113"> 
+                        <img src="images/phCall.png" height = "25px" width="25px">  
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>Chat with us
+                        <a href = "viber://chat?number=+959785096113">
+                        <img src="images/viberIcon.png" height = "30px" width="30px">  
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+<!-------------------js for toggle menu ------------------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    var dyson = document.getElementById("dyson");
+
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

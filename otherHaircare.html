@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membina Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+</head>
+<body>
+<div class="header" id = "header">
+    <div class="container">
+        <div class = "navbar">
+            <div class ="logo">
+                <img src="images/Logo.png" width = "250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="haircare.html">Hair Care</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                    <li><a href="bodycare.html">Body Care</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" width = "30px" height="30px">
+            <img src="images/menu.png" class = "menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<!-------------------Products ------------------>
+<div class="small-container" style = "padding-top: 30px;"> 
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/Moroccan Oil.avif">
+        </div>
+        <div class = "col-2">
+            <h4>Moroccan Oil Original (100ml)</h4>
+                    <p>လိမ်းလိုက်ရင် စီးကပ်ခြင်းလုံးဝမရှိပဲ ဆံသားကို အားဖြည့်ပေးပါတယ်။
+                        ဆံပင်သန်စေရုံသာမက ဆံသား ခြောက်ခြင်းနဲ့ ဆံပင်အဖျားညှိခြင်း နှစ်ခွဖြစ်ခြင်းတွေအတွက်ရွေးချယ်သင့်တဲ့ ခေါင်းလိမ်းဆီလေးပါ။ 
+                        ဆံပင်ဆေးဆိုး ဆံပင်ဖြောင့် ဆံပင်ကောက်မကြာခဏ လုပ်တတ်တဲ့သူတွေအတွက် မရှိမဖြစ်လေးပါ။ 
+                        ဆံသားအတွက်အကောင်းဆုံးအားဖြည့်ပေးနိုင်ပါတယ်။</p>
+                        <h4>Price: <span class="mmkPrice" data-id="MoroccanOil">0</span> MMK</h4>
+                        <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/GrowellShampoo.webp">
+        </div>
+        <div class = "col-2">
+            <h4>Growell Shampoo</h4>
+                <p>
+                    Singapore ရဲ့ နာမည်ကြီး Pharmacy company ကထုတ်တဲ့ Shampoo ပါ..  
+                    ဆံပင်ကျွတ်တာ သိသိသာသာ သက်သာလာစေတဲ့အပြင် ဆံပင်အသစ်လေးတွေပါ ထပ်ထွက်လာစေပါတယ်..
+                </p>
+                <h4>500ml Price: <span class="mmkPrice" data-id="g500ml">0</span> MMK</h4>
+                <h4>200ml Price: <span class="mmkPrice" data-id="g200ml">0</span> MMK</h4>
+                <h4>75ml Price: <span class="mmkPrice" data-id="g75ml">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/ArganOil.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Argan oil of Morocco
+                </h4>
+                <p>
+                    အဖျားနှစ်ခွဖြစ်ပြီးဆံသားကမွဲ ခြောက်ခြောက်နဲ့အောက်ဖျားလေးတွေရှုပ်လို့ရှင်းရခက်နေရင် 
+                    argan oil လေးကဆံသားတွေကိုတောက်ပြောင်စေပြီးဆံသားလေးကိုအိအိလေးနဲ့ရှင်းရအရမ်းလွယ်စေလို့ 
+                    all hair types သုံးလို့ရပါတယ်နော်...ခေါင်းလျှော်ပြီးဆံသား မစိုမခြောက်ဖစ်နေတဲ့အချိန်မှာသုံးပေးလို့ရပါတယ်။
+                </p>
+                <h4>Price: <span class="mmkPrice" data-id="arganOil">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/KaminomotoTonic.avif">
+        </div>
+        <div class = "col-2">
+            <h4>Super strength Hair Tonic</h4>
+                <p>
+                    ဆံပင်တွေကျွတ်တာ ပါးတာ သက်သာပြီး ဆံပင်အသစ်တွေ ပြန်ပေါက်စေပါတယ် .. ဦးရေပြား ယားတာနဲ့ ဘောက်ထတာလဲ သက်သာတယ်.. 
+                    မနက် ည တစ်နေ့ ၂ကြိမ် သုံးလို့ ရပါတယ် ခေါင်းလျှော်ပြီးမခြောက်တခြောက်အချိန်မှာလဲ လိမ်းလို့ ရပါတယ်..
+                    ဦးရေပြားကို လိမ်းပြီး ရင် ၅မိနစ်လောက် နှိပ်ပေးရတာပါ.
+                </p>
+                <h4>Price: <span class="mmkPrice" data-id="kaminomoSilver">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/FinoHairMask.avif">
+        </div>
+        <div class = "col-2">
+            <h4>Premium Touch Hair Mask </h4>
+            <p>
+                ဂျပန်နိုင်ငံမှာရောင်းအားအကောင်း‌ဆုံးထဲပါတဲ့ Hair care Brand ပါ.. 
+                ဆံပင်နှစ်ခွဖြစ်တာ ဆံပင်ကို ကောက်လိုက်/ဖြောင့်လိုက်/ဆေးခဏခဏဆိုးလိုက်လုပ်လို့ ဆံသားပျက်စီး 
+                ဆံသားမွဲခြောက်ခြောက်ဖြစ်ပြီး အစိုဓါတ်မရှိတဲ့သူတွေ ဆံပင်ကျွတ်ပြီး ဆံသားလေးတွေပြတ်သွားတာ တွေကို 
+                တပတ်ကို ၂-၃ကြိမ်/ ၁ကြိမ်ကို (၅-၁၀မိနစ်ကြား) ပေါင်းပေးရုံနဲ့ သိသိသာသာ ဆံသားလေးက ပျော့အိပြီးတောက်ပြောင်လာ‌စေပါတယ်။
+            </p>
+            <h4>Price: <span class="mmkPrice" data-id="finoHairMask">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/FinoHairSerum.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hair Serum</h4>
+            <p>ပြောင်းဖူးမွှေးလို ဖွာလန်ကျဲ နေတဲ့ ဆံပင်ကို တောင် ဝပ်ဝပ် လေး ဖြစ်သွားအောင် လုပ်ပေး နိုင်ပါတယ်.. 
+                ဆံသားခြောက်တာ ဆံသား နှစ်ခွ ဖြစ်တာ အရမ်း သက်သာ တဲ့ Hair serum ပါ.. စေးကပ်ခြင်းလဲ လုံးဝ မရှိပါဘူး..
+            </p>
+            <h4>Price: <span class="mmkPrice" data-id="finoHairSerum">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/vatikaShampoo.jpg" height="350px">
+        </div>
+        <div class = "col-2">
+            <h4>Vatika Shampoo</h4>
+                <p>
+                    Cactus နဲ့ Ginger ပေါင်း ထားတာမို့ ဆံသား အားဖြည့် တင် မဟုတ်ပဲ ဦးရေပါ အားဖြည့်ပေးတယ်.. 
+                    သဘာဝ နည်းပဲ အခြေ ခံထားပြီး alcohol လုံးဝ မပါလို့ အဆီမပြန်ဘူး ဘောက်မထဘူး.. 
+                    Australia ကို သွင်း တဲ့ Quality မို့ ဆံပင် မကြမ်း စေရဘူး စိတ်ချ အာမခံတယ်..
+                </p>
+                <h4>532ml Bigger Size: <span class="mmkPrice" data-id="vatikaShampoo">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/VatikaConditioner.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hair Conditioner</h4>
+            <p>
+                Wax တွေကြောင့် မဟုတ်ပဲ သဘာဝ အတိုင်း ပျော့ ဆင်းတာမို့ ဆံပင် တအား ပျက်စီး နေရင်တော့ တန်း မချောပါဘူး.. 
+                စွဲသုံးသွားရင် တစ်ဘူး ကုန်တာ နဲ့ ဆံပင်ကြမ်းတွေ သက်သာ လာမှာ ပါ..
+            </p>
+            <h4>400ml Price: <span class="mmkPrice" data-id="vatikaConditioner">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/VatikaHiarOil.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hair Oil (Cactus & Ginger)</h4>
+            <p>နှပ်ဆီ ကို ခေါင်း မလျှော်ခင် တစ်ည 
+                ဦးရေ ကနေ ဆံပြားထိ သေချာ စိမ့်ဝင်အောင် လိမ်းပြီး ညအိပ်ပါ.. 
+                မနက်ကျရင် ခေါင်းကို ပြောင်နေအောင် အမြုပ် များများ ထတဲ့ ထိ လျှော် ပေးပါ.. 
+                ဆံပင်ကျွတ် ဆံပင် နှစ်ခွဖြစ်တာ အရမ်း သက်သာပြီး ဆံပင်သန်ပါတယ်..</p>
+                <h4>Price: <span class="mmkPrice" data-id="vatikaOil">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/VatikaHairCream.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hair Cream (prevent Hair Loss)</h4>
+            <p>ခေါင်းမလျှော်ခင် cream နဲ့ ဦးရေ အနှံ့ နိပ်ပြီး ထည့်ပါ.. 
+                ပြီးရင် ဆံသား တွေကိုလဲ နှံ့အောငါ သေချာလိမ်းပြီး ၁နာရီလောက် ထားပေးပါ.. 
+                (တစ်ညလုံး ထားလဲ ရပါတယ်) ပြီးရင် ခေါင်း သေချာ ပြောင်အောင် လျှော်ပေးပါ.. ဆံပင်သန်တာ အရမ်း သိသာပါတယ်..
+            </p>
+            <h4>Price: <span class="mmkPrice" data-id="vatikaCream">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+</div>
+<div id="backtoTop">
+    <a href="javascript:void(0);"><h4 style = "text-align: center;">Back to Top &#8679;</h4></a>
+</div>
+<!-------------------footer------------------>
+<div class="footer">
+    <div class="footer-row">
+        <div style = "padding-bottom: 10px;">
+            <h5>
+                မြရည်နန္ဒာအိမ်ယာ | မမ 28, တိုက် 30 |
+                အခန်း 5, 45 x 118 (C) ဒေါင့်
+                MANDALAY
+            </h5>
+            <h5>Phone - 09785096113 </h5>
+        </div>
+        <div>
+            <p>Follow us
+                <a href="https://www.facebook.com/yoursconfidante">
+                    <img src="images/FBicon.webp" height = "25px" width="25px">  
+                </a>
+            </p>
+        </div>
+        <div>
+            <p>Call us
+                <a href="tel:+959785096113"> 
+                    <img src="images/phCall.png" height = "25px" width="25px">  
+                </a>
+            </p>
+        </div>
+        <div>
+            <p>Chat with us
+                    <a href = "viber://chat?number=+959785096113">
+                    <img src="images/viberIcon.png" height = "30px" width="30px">  
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-------------------js for toggle menu ------------------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+
+    document.getElementById("backtoTop").addEventListener("click", function() {
+    document.getElementById("header").scrollIntoView({ behavior: "smooth" });
+});
+</script>
+
+<script>
+    function updatePrices() {
+        const priceMapping = JSON.parse(localStorage.getItem('priceMapping'));
+
+        if (priceMapping) {
+            const mmkPrices = document.querySelectorAll('.mmkPrice');
+            mmkPrices.forEach(function(mmkPriceElement) {
+                const itemId = mmkPriceElement.getAttribute('data-id');
+                if (priceMapping[itemId]) {
+                    mmkPriceElement.innerText = parseFloat(priceMapping[itemId]).toLocaleString('en-US', { maximumFractionDigits: 0 });
+                }
+            });
+        }
+    }
+
+    window.onload = updatePrices;
+</script>
+
+</body>
+</html>

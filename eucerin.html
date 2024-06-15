@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membina Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class = "navbar">
+            <div class ="logo">
+                <img src="images/Logo.png" width = "250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="haircare.html">Hair Care</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                    <li><a href="bodycare.html">Body Care</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" width = "30px" height="30px">
+            <img src="images/menu.png" class = "menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<div >
+  <ul id="brandList" style = "font-size: 12px; padding-top: 100px; position: fixed; background-color:azure; width: 100%;" >
+      <li id="spotless"><a href="javascript:void(0);"><p>Spotless</p></a></li>
+      <li id="hayluron"><a href="javascript:void(0);"><p>Hyaluron[3X]</p></a></li>
+      <li id="3D"><a href="javascript:void(0);"><p>Hyaluron[3D]</p></a></li>
+      <li id="proAcne"><a href="javascript:void(0);"><p>ProACNE</p></a></li>
+      <li id="uv"><a href="javascript:void(0);"><p>Sunscreen</p></a></li>
+</ul>  
+</div>
+<!-----------------------------Eucerin Spotless ----------------------->
+<div class="airwrap">
+  <div class="small-container">
+    <h2 id = "spotless-section" style = "padding-top: 150px; text-align: center;">Eucerin Spotless</h2>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/spotless cleanser.PNG">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Brightening Cleanser</h4>
+              <p>Foam type cleanser ဖြစ်ပြီး ချွေးပေါက်ထဲက အဆီနဲ့ အညစ်ကြေးတွေကို သေချာ သန့်စင်ပေးနိုင်ပါတယ်. 
+                Make up နဲ့ tone up cream တွေ ကိုလဲ အလွယ် တကူ cleanse လုပ်ပေး နိုင်ပြီး Alcohol free မို့ Skin damage လုံးဝ မဖြစ်ပါဘူး..</p>
+              <h4>Price: <span class="mmkPrice" data-id="eucerinCleanser">0</span> MMK</h4>
+               <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/booster essence.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Brightening Essence</h4>
+        <p>Skin brighten effect ကို လုံးဝ သိသိသာသာ ရစေတဲ့ Essence ပါ.. All skin type ရပါတယ်.. 
+          skin hydration ကိုလဲ သိသိသာသာ ဖြည့် ပေးတာ မို့ အခြား Brightening Essence တွေလို အသားခြောက်တာ စပ်တာ လုံးဝ မဖြစ်ပါဘူး…</p>
+        <h4>Price: <span class="mmkPrice" data-id="boosterEss">0</span> MMK</h4>
+         <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/booster serum.png">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Brightnening Serum</h4>
+          <p>တင်းတိပ် အမဲစက်ကို ၂ပတ် အတွင်း မှာတင် 75% ထိ သက်သာစေပါတယ်.. နေလောင်တာဆို ပိုမြန်ပါတယ်.. 
+            လေဆာ ပစ်ထားတဲ့ သူတွေ အတွက် အရမ်း အသုံးဝင်ပါတယ်.. Hayluronic acid ပါပြီး အသားခြောက် သွားတာ ဖြတ်မရတာ မျိုး လုံးဝ မရှိပါဘူး..</p>
+          <h4>Price: <span class="mmkPrice" data-id="boosterSerum">0</span> MMK</h4>
+           <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/spotless day.png">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Day Cream</h4>
+          <p>တင်းတိပ် အမဲစက်ကို သက်သာစေတဲ့ အပြင် ပြန်ဖြစ်မှာကိုပါ ကာကွယ် ပေးတဲ့ Day cream ပါ.. SPF 30 ပါပြီးသားပါ.. တင်းတိပ် ကျတာ မြန်တဲ့သူ 
+            အသားပါတဲ့ သူဆို နေ့လည်ဖက် နေရောင်ကပါတဲ့ ခရမ်းလွန်ရောင်ခြည် molecules လေးတွေ ကနေတဆင့် တင်းတိပ် ပြန်ဖြစ် နိုင်တာမို SPF 30 ပါတဲ့ cream လေးလိမ်းရတာပါ.. 
+            အပြင်ထွက်မယ်ဆို Sunscreen သတ်သတ် ထပ်လိမ်းဖို့ လိုအပ်ပါတယ် နော်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="spotlessCream">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2">
+        <img src="images/spotless night.png">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Night Cream</h4>
+        <p>Night cream က skin cell renewal လုပ်ပေးနိုင်လို့ day ထပ်ပိုပြီး တင်းတိပ် သက်သာတာ နဲနဲ ပိုမြန်ပါတယ်.
+          ပြန်မဖြစ်ဖို့လဲ ကာကွယ်တာ ပါပါတယ်.. အသား ရည် မညီညာတာတွေ လဲ ညှိပေးနိုင်ပါတယ်..</p>
+        <h4>Price: <span class="mmkPrice" data-id="spotlessCream">0</span> MMK</h4>
+        <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/spot eraser.png">
+      </div>
+      <div class="col-2">
+        <h4>Spot Eraser</h4>
+        <p>Spot eraser ဆိုတဲ့ အတိုင်း အမာရွတ် အမဲစက် ရှိတဲ့ နေရာလေးပဲ တို့ရတာပါ.. 
+          သက်သာတာ မြန်ပါတယ်.. တင်းတိပ် ရနေတဲ့ နေရာလေးတွေကို Night cream ပေါ်ကနေ ထပ်တို့ ပေးပါ…</p>
+        <h4>Price: <span class="mmkPrice" data-id="spotEraser">0</span> MMK</h4>
+        <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/spotless BDlotion.png">
+      </div>
+      <div class="col-2">
+        <h4>Spotless Brightening Body Lotion</h4>
+          <p>UV protection effect ကို Vitamin E နဲ့ ရောထားတာမို့ Skin damaged ဖြစ်သွားတာတွေကို သက်သာစေတဲ့ အပြင် recovering stage မှာလဲ ထပ်မဖြစ်အောင် ကာကွယ် ပေးထားပါတယ်.. 
+            နေပူထဲ ထွက်မယ် ဆိုရင်တော့ Body sunscreen ထပ်လိမ်း ပေါ့နော်.. သူက နေလောင်ပြီး ကွက်မဲသွား တာမျိုး နဲ့ အသာရည် ထိန်းသိမ်း ချင်တယ် နဲနဲ ဖြူချင်တယ် ဆိုရင် သုံးရတာ မျိုးပါ..</p>
+          <h4>Price: <span class="mmkPrice" data-id="spotlessBDLotion">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/eucerinProducts.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Anti Pigment Series</h4>
+          <p>စျေးရော အာနိသင်ရော အတူတူပါပဲ.. 
+            Spotless က စင်ကာပူ ကောင်တာက ဝယ်ပြီး Anti Pigment က UK ဖက်က မှာပေးတာပါ.. တကယ်တော့ SG ကောင်တာမှာတင်ကိုပဲ Anti pigment ဆိုပြီး မှာလဲ ရပါတယ်.. 
+            Quality လုံးဝ တူပါတယ် နော်.. တချို့က ကွဲတယ် ဆိုပြီး ထင်နေလို့ ရှင်းပြတာပါ.. မရှိဘူး မဖြစ်ရလေအောင် Spotless ရော anti pigment ရော Instock ထားပေး ပါတယ် ရှင့် …</p>
+      </div>
+    </div>
+<!-----------------------------Eucerin Hayluron  ----------------------->
+    <h2 id = "hayluron-section" style = "padding-top: 150px; text-align: center;">Eucerin Hyaluron [3X] Filler</h2>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/eucerinhydrationToner.jpg">
+          </div>
+          <div class="col-2">
+            <h5>Hydration Toner</h5>
+            <p>Dry to combination Skin type အတွက် ပါ...</p>
+              <h4>Price: <span class="mmkPrice" data-id="eucerinToner">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/hayluronBooster.jpg">
+          </div>
+          <div class="col-2">
+            <h4>Hyaluron [3X] Filler Moisture Booster</h4>
+            <p>Skin type အမျိုးမျိုး အတွက် လုံးဝ ရပါတယ်.. အရမ်း Light weight ဖြစ်ပြီး Moisture boost up ဖြစ်တာ အရမ်း သိသာပါတယ်.. 
+              လိမ်းလို့ ပွတ်နေရင်းမှာကို ပျစ်သွားပြီး အသားထဲ စိမ့်ဝင်သွားတာ ပါ.. စေးကပ် ပြီး ကျန်ခဲ့တာ အဆီပြန်ပြီး ကျန်ခဲ့တာမျိုး လဲ လုံးဝ မရှိပါဘူး.. 
+              Healthy look skin တန်းရတဲ့ Booster လေးပါ..</p>
+              <h4>Price: <span class="mmkPrice" data-id="hayluronBooster">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/Hayluron day.jpg">
+          </div>
+          <div class="col-2">
+            <h4>Hyaluron [3X] Filler Day</h4>
+            <p>Hayluron ပါတဲ့ Anti Aging day cream မို့ fine line နဲ့ wrinkles တွေ အထူး သက်သာပါတယ်.. မဖြစ်လာဖို့ ကာကွယ်တာလဲ လုပ်ပေး ပါသေးတယ်.. 
+              All skin type ရပါတယ်.. အဓိက သုံးပြီးရင် Skin bounce ရပြီး Aging pores တွေ သက်သာစေတာပါ..</p>
+              <h4>Price: <span class="mmkPrice" data-id="hayluronCream">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/hayluron night.jpg">
+          </div>
+          <div class="col-2">
+            <h4>Hyaluron [3X] Filler Night</h4>
+            <p>Night cream ရဲ့ ingredients တွေက Day နဲ့ တူပါတယ် 
+              သူက SPF မပါတော့ပဲ  concentrated dexpanthenol ပါလို့ overnight တစ်ခုလုံးမှာ Recharge လုပ်လိုက် သလို မျိုး skin cell အသစ်တွေ ဖြစ်အောင် လှုံ့ဆော် ပေးနိုင်ပါတယ်..</p>
+              <h4>Price: <span class="mmkPrice" data-id="hayluronCream">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/hayluron eye.jpg">
+          </div>
+          <div class="col-2">
+            <h5>Hyaluron [3X] Filler Eye SPF15</h5>
+          <p>မျက်ကပ်မှန် တပ်ထားရင်တောင် သုံးလို့ ရပါတယ်လို့ Ophthalmologically test လုပ်ပေး ထားပါတယ်.. 
+            လိမ်းပြီး စပ်ဖျင်းဖျင်း ဖြစ်တာ မျိုး ဆို ဝေလာဝေး ပေါ့နော်.. Aging eye ကို သက်သာစေပြီး မျက်ကွင်းညိုတာလဲ ပျောက်ပါတယ်.. SPF ပါတာမို့ နေ့ခင်းဖက်တွေ သုံးဖို့ ထုတ်တာပါ..</p>
+            <h4>Price: <span class="mmkPrice" data-id="hayluronEye">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+          </div>
+      </div>
+<!-----------------------------Eucerin 3D  ----------------------->
+    <h2 id = "3D-section" style = "padding-top: 150px; text-align: center;">Hyaluron-Filler + Elasticity</h2>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/3DSerum.jpg">
+        </div>
+        <div class="col-2">
+          <h5>3D anti-aging serum</h5>
+            <p> အသက် ၄၀ နှင့် အထက် တွေ အတွက် အထူး ထုတ်ထားတာပါ.. 
+              Hayluron ရော Thuamidol ရော ပါလို့ Skin Aging နဲ့ Aging spot 
+              (အသက်ရလို့ ဖြစ်တဲ့ အမဲစက်) ကို သက်သာစေပါတယ်.. ထပ် မဖြစါ လာဖို့လဲ ကာကွယ် ပေးပါတယ်..</p>
+              <h4>Price: <span class="mmkPrice" data-id="3DSerum">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+   <div class="row">
+    <div class="col-2">
+      <img src="images/3DCream.jpg">
+      </div>
+      <div class="col-2">
+        <h5>Hyaluron+Elasticity Day SPF 30</h5>
+          <p> Day cream with SPF 30, အရွယ် ရတော့ အိမ်ထဲ နေရင်းတောင် အမဲစက်လေးတွေ ဖြစ်တတ်တာမို့ ဒီ day လေးက အပြင် မသွားဖြစ်ရင် SPF ထပ် မလိမ်းရတဲ့ cream လေးပေါ့.. 
+            သေချာ သိမှ သတိထားမိတဲ့ wrinkles ဖြစ်ချင် နေတဲ့  နေရာတွေ အကုန် plumpy effect ရစေပါတယ်.. Aging spot လဲ သေချာ နိုင်တဲ့ Thick cream type လေးပါ..</p>
+            <h4>Price: <span class="mmkPrice" data-id="3DCream">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-2">
+      <img src="images/3DCream.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Hyaluron + Elasticity Night</h4>
+          <p> Night cream ကိုမှ collagen ထုတ်ပေးနိုင်တဲ့ အာနိသင်လဲ ပါသေးတာမို့ ညဖက် တွေ လိမ်းပြီး အိပ်ရင် skin cell အသစ်တွေ ပြန်ရအောင် အရေပြားကို လှုံ့ဆော် ပေးနိုင်ပါတယ်.. 
+            Aging cream တွေမို့ ထူပါတယ်..ဒါပေမယ့် ချွေးပေါက် ပိတ်မသွားစေတဲ့ အတွက် ယောင်ရမ်း ဝက်ခြံ နဲ့ အဆီဖု ဝက်ခြံတွေ မထွက်ပါဘူး.. 
+            Aging care မို့ ချက်ချင်း မသိသာပေမယ့် စွဲသုံးလေ အသားရည် ကြည်လေပါ..
+            Skin ပါးပြီး တင်းတိပ် နဲ့ အရေးကြောင်း ဖြစ်လွယ်တဲ့ သူတွေ အတွက် အကောင်းဆုံးပါ..</p>
+            <h4>Price: <span class="mmkPrice" data-id="3DCream">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>        
+<!-----------------------------ProAcne Cleanser----------------------->
+  <h2 id = "proAcne-section" style = "padding-top: 150px; text-align: center;">ProACNE Solution</h2>
+   <div class="row">
+      <div class="col-2">
+        <img src="images/cleansing Scrub.png">
+      </div>
+      <div class="col-2">
+        <h5>ProACNE Solution Scrub</h5>
+            <p>Blackheads ဝက်ခြံ အတွက် သုံးရတဲ့ scrub ပါ.. gentle scrub မို့ skin barriers မပျက်စီးပါဘူးနော်.. ချွေးပေါက်ထဲမှာ ပိတ်နေတဲ့ အဆီခဲ ဝက်ခြံ တွေကို သက်သာစေပါတယ်</p>
+              <h4>Price: <span class="mmkPrice" data-id="eucerinCleanser">0</span> MMK</h4>
+              <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Cleansing Foam.PNG">
+      </div>
+      <div class="col-2">
+        <h5>Cleansing Foam</h5>
+        <p>ချွေးပေါက်ကျယ် ပြီး အဆီပြန်တဲ့ skin type အတွက်ပါ.. အဆီဖု နဲ့ ဝက်ခြံတွေ ချွေးပေါက်ထဲက အညစ်ကြေးကြောင့်ဖြစ်တဲ့ ဝက်ခြံ အဆီခဲတွေ သက်သာစေပါတယ်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="eucerinCleanser">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/gel to foam.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Cleansing Gel to Foam</h4>
+        <p>Gel အပျစ် ကိုမှ အမြုပ်တွေ ထွက်ပြီး Mild cleanser မို့ ချွေးပေါက်လဲ မကျယ်ဘူး ကြေးလဲ ပြောင်မယ် အဲ့သဘောပေါ့နော့်.. </p>
+          <h4>Price: <span class="mmkPrice" data-id="eucerinCleanser">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Cleansing Gel.png">
+      </div>
+      <div class="col-2">
+        <h4>Cleansing Gel</h4>
+        <p>Soap free cleansing gel မို့ oily sensitive skin တွေ သုံးလို့ရပါတယ်.. မျက်နှာ သစ်ပြီး hydration ကျန်ခဲ့တာမို့ ယောင်ယမ်း ၀က်ခြံတွေကို သက်သာစေပါတယ်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="eucerinCleanser">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+<!-----------------------------ProAcne Solution----------------------->
+    <div class="row">
+      <div class="col-2">
+        <img src="images/ProAcneToner.png">
+      </div>
+      <div class="col-2">
+        <h5>ProACNE Solution Toner</h5>
+        <p>Oily Acne အတွက် Toner ပါ.. ချွေးပေါက် ထဲက အညစ်ကြေးတွေကို သေချာ သန့်စင်ပေးနိုင်တဲ့ Purify toner အမျိုးအစားပါ.. 
+          T zone နဲ့ အဆီပြန် ဝက်ခြံ အဆီခဲ ဖြစ်တဲ့ နေရာတွေကို သေချာ သန့်စငါ ပေးနိုင်ပါတယ်.. 
+          တိုနာသုံးပြီး ချွေးပေါက်ပွင့်နေချိန် မှာ ကျန်တဲ့ Skincare step ကို သုံးပေးရင် Benefits တွေ အကုန် absorb လုပ်နိုင်တာမို့ ပိုပြီး မြန်မြန် ထိရောက်ပါတယ်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="eucerinToner">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/AI Clearing.png">
+      </div>
+      <div class="col-2">
+        <h5>A.I. Clearing Treatment</h5>
+        <p>
+          ချွေးပေါက်ပိတ်နေတာတွေ သက်သာ စေပါတယ် အဆီဖု ဝက်ခြံ ယောင်ယမ်း ဝက်ခြံ တွေဆိုလဲ သက်သာစေပြီး ထပ်မဖြစ်ဖို့လဲ ကာကွယ် နိုင်ပါတယ်.. 
+          ညဖက် တစ်ခါ ပါးပါးလေးပဲ မျက်နှာမှာ တစ်ထပ် လိမ်း absorb ဖြစ်သွားအောင်စောင့်ပြီး ၁၀မိနစ်လောက် နေမှ moisture ထပ်လိမ်းပြီး အိပ်ပါ.. 
+          နေ့ည တောက်လျှောက် လိမ်းရင် အသားလောင် တတ်ပါတယ်နော်..
+        </p>
+          <h4>Price: <span class="mmkPrice" data-id="aiClearing">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Triple Effect Serum.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Triple Effect Serum</h4>
+          <p>
+            ဝက်ခြံ အမာရွတ် တွေကို အဓိက သက်သာစေပါတယ်.. အဆီဖု 
+            ဝက်ခြံ တွေ ဖြစ်တာလဲ ကာကွယ်ပေးပါတယ်ာာ တအား ဆိုးဆိုးရွားရွား မဟုတ်ပဲ ဝက်ခြံ လေးတွေ ပေါက်လိုက် 
+            ပျောက်လိုက် သံသရာ လည်နေရင် ဒီ serum လေး သုံးစေချင်ပါတယ်.. 
+            Anti Shine effect Matt finish မို့ အဆီပြန်တာလဲ ထိန်းပေးပါတယ်
+          </p>
+            <h4>Price: <span class="mmkPrice" data-id="tripleEffectSerum">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Mattfying Day.jpg">
+      </div>
+      <div class="col-2">
+        <h4>Triple Effect Serum</h4>
+        <h4>Day Bright Mattifying SPF30</h4>
+        <p>Oil control type ကိုမှ SPF လဲပါလို့ ဝက်ခြံ အမာရွတ်လေးတွေ မဲပြီးကျန်ခဲ့တာကို သက်သာစေပါတယ်.. 
+          ဝက်ခြံဖြစ်တဲ့ exceed sebum တွေထွက်တာကို သက်သာစေပါတယ်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="aiMatt">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/AI Matt.png">
+      </div>
+      <div class="col-2">
+        <h4>A.I. Matt Fluid</h4>
+        <p>လိမ်းပြီး 8နာရီထိ အဆီပြန်တာ ကို ထိန်းထားပေးနိုင်ပါတယ်.. အသားလဲ ခြောက် မသွားပါဘူး.. Skin soothe ဖြစ်စေတာမို့ ဝက်ခြံလဲ သက်သာပါတယ်..</p>
+          <h4>Price: <span class="mmkPrice" data-id="aiMatt">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+<!-----------------------------UV----------------------->
+<h2 id = "uv-section" style = "padding-top: 150px; text-align: center;">Sunscreen</h2>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/HyperPigment UV.jpg">
+      </div>
+      <div class="col-2">
+        <h5>Hyper Pigmentation UV</h5>
+        <p>လေဆာ ပစ်ထားရတဲ့ သူ.. တင်းတိပ် ရှိတဲ့သူတွေ အတွက် အသင့်တော်ဆုံးပါ.. UVA/UVB ကာကွယ်မှု အရမ်း မြင့်ပြီး သူလဲ Light defense ပါပြီးသားပါ.. အတွင်းပိုင်းထဲထိ သေချာ 
+          ထိထိရောရောက် ကာကွယ် ပေးလို့ တင်းတိပ် သမားတွေဆို ကွက်ပြီး ပိုမဲ လာတာ လောင်သွားတာမျိုး မဖြစ် ပါဘူး..</p>
+          <h4>Price: <span class="mmkPrice" data-id="eucerinUV">0</span> MMK</h4>
+          <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Oil Control Uv.jpeg">
+      </div>
+      <div class="col-2">
+        <h5>Oil Control UV</h5>
+          <p>
+            လူကြိုက် အများဆုံး Sunscreen ပါ.. Oily acne skin အတွက် 100% သင့်တော်ပါတယ်.. 
+            Sweat proof water proof မို့ ရေကူးတာ လေ့ကျင့်ခန်းလုပ်တာ တွေမှာလဲ လိမ်းလို့ရပါတယ်..
+            လုံးဝ အဆီ မပြန်တဲ့ အပြင် အဆီကိုပါ ထိန်းပေးနိုင်တဲ့ 8H anti shine effect ပါပါတယ်..
+          </p>
+            <h4>Price: <span class="mmkPrice" data-id="eucerinUV">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Hydro Protect UV.JPEG">
+      </div>
+      <div class="col-2">
+        <h4>Hydro Protect UV</h4>
+          <p>
+            နောက်ဆုံး ထွက်တဲ့ Hydro protect က လုံးဝ liquid type အရည်ကျဲ လေးပါ.. 
+            absorption အားကောင်းပြီး very light weight ပါ.. လိမ်းထားတယ်တောင် မထက်စေရပါဘူး.. 
+            blue light protection ပါပြီး invisible finish look ပါ.. protection ကတော့ 10/10 ထဲက ပါပဲ..
+          </p>
+            <h4>Price: <span class="mmkPrice" data-id="eucerinUV">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <img src="images/Photo Aging UV.png">
+      </div>
+      <div class="col-2">
+        <h4>Photo Aging UV</h4>
+          <p>Veryt High protection ရတဲ့ chemical sunscreen ပါ..
+             မီးချောင်းတွေ UV rays တွေက လာတဲ့ HEVIS light defense လဲ ပါတာမို့ အရေးကြောင်း အထူး 
+             ကာကွယ်ပေးပါတယ်. ကားပေါ်နေပြီး တောက်လျှောက် အလုပ်လုပ် နေရတဲ့သူတွေ သုံး သင့်ပါတယ်</p>
+            <h4>Price: <span class="mmkPrice" data-id="eucerinUV">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+      </div>
+    </div>
+</div>
+</div>
+<!-------------------footer------------------>
+<div class="footer">
+  <div class="footer-row">
+      <div style = "padding-bottom: 10px;">
+          <h5>
+              မြရည်နန္ဒာအိမ်ယာ | မမ 28, တိုက် 30 |
+              အခန်း 5, 45 x 118 (C) ဒေါင့်
+              MANDALAY
+          </h5>
+          <h5>Phone - 09785096113 </h5>
+      </div>
+      <div>
+          <p>Follow us
+              <a href="https://www.facebook.com/yoursconfidante">
+                  <img src="images/FBicon.webp" height = "25px" width="25px">  
+              </a>
+          </p>
+      </div>
+      <div>
+          <p>Call us
+              <a href="tel:+959785096113"> 
+                  <img src="images/phCall.png" height = "25px" width="25px">  
+              </a>
+          </p>
+      </div>
+      <div>
+          <p>Chat with us
+                  <a href = "viber://chat?number=+959785096113">
+                  <img src="images/viberIcon.png" height = "30px" width="30px">  
+              </a>
+          </p>
+      </div>
+  </div>
+</div>
+<!-------------------js for toggle menu ------------------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    var dyson = document.getElementById("dyson");
+
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+    document.getElementById("spotless").addEventListener("click", function() {
+    document.getElementById("spotless-section").scrollIntoView({ behavior: "smooth" });
+    });
+    document.getElementById("hayluron").addEventListener("click", function() {
+    document.getElementById("hayluron-section").scrollIntoView({ behavior: "smooth" });
+    });
+    document.getElementById("3D").addEventListener("click", function() {
+    document.getElementById("3D-section").scrollIntoView({ behavior: "smooth" });
+    });
+    document.getElementById("proAcne").addEventListener("click", function() {
+    document.getElementById("proAcne-section").scrollIntoView({ behavior: "smooth" });
+    });
+    document.getElementById("uv").addEventListener("click", function() {
+    document.getElementById("uv-section").scrollIntoView({ behavior: "smooth" });
+    });
+
+
+</script>
+
+<script>
+  function updatePrices() {
+      const priceMapping = JSON.parse(localStorage.getItem('priceMapping'));
+
+      if (priceMapping) {
+          const mmkPrices = document.querySelectorAll('.mmkPrice');
+          mmkPrices.forEach(function(mmkPriceElement) {
+              const itemId = mmkPriceElement.getAttribute('data-id');
+              if (priceMapping[itemId]) {
+                  mmkPriceElement.innerText = parseFloat(priceMapping[itemId]).toLocaleString('en-US', { maximumFractionDigits: 0 });
+              }
+          });
+      }
+  }
+
+  window.onload = updatePrices;
+</script>
+
+</body>
+</html>

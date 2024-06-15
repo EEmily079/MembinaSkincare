@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membina Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+</head>
+<body>
+<div class="header" id = "header">
+    <div class="container">
+        <div class = "navbar">
+            <div class ="logo">
+                <img src="images/Logo.png" width = "250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="haircare.html">Hair Care</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                    <li><a href="bodycare.html">Body Care</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" width = "30px" height="30px">
+            <img src="images/menu.png" class = "menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<!-------------------Products ------------------>
+<div class="small-container" style = "padding-top: 30px;"> 
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/genifique Serum.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Lancome Genifique Serum</h4>
+                    <p>လိမ်းလိုက်ရင် စီးကပ်ခြင်းလုံးဝမရှိပဲ ဆံသားကို အားဖြည့်ပေးပါတယ်။
+                        ဆံပင်သန်စေရုံသာမက ဆံသား ခြောက်ခြင်းနဲ့ ဆံပင်အဖျားညှိခြင်း နှစ်ခွဖြစ်ခြင်းတွေအတွက်ရွေးချယ်သင့်တဲ့ ခေါင်းလိမ်းဆီလေးပါ။ 
+                        ဆံပင်ဆေးဆိုး ဆံပင်ဖြောင့် ဆံပင်ကောက်မကြာခဏ လုပ်တတ်တဲ့သူတွေအတွက် မရှိမဖြစ်လေးပါ။ 
+                        ဆံသားအတွက်အကောင်းဆုံးအားဖြည့်ပေးနိုင်ပါတယ်။</p>
+                        <h4>115ml Price: <span class="mmkPrice" data-id="genifique115ml">0</span> MMK</h4>
+                        <h4>100ml Price: <span class="mmkPrice" data-id="genifique100ml">0</span> MMK</h4>
+                        <h4>75ml Price: <span class="mmkPrice" data-id="genifique75ml">0</span> MMK</h4>
+                        <h4>50ml Price: <span class="mmkPrice" data-id="genifique50ml">0</span> MMK</h4>
+                        <h4>7ml Price: <span class="mmkPrice" data-id="genifique7ml">0</span> MMK</h4>
+
+                        <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/tonique Confort.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Tonique Confort</h4>
+                <p>
+                    မျက်နှာပေါ်က အဆီနဲ့ မိတ်ကပ်အညစ်အကြေး တွေကို ညင်သာစွာဖယ်ရှားသန့်စင်ပေးပြီး 
+                   နို့ရည်လိုမျိူးအရည်ပျစ် ပျစ်လေးမို့လို့ အသား​ထဲစိမ့်၀င်ပြန့်နှံ့မှုလဲ မြန်ဆန်တဲ့အပြင် နောက်ထက် လိမ်းမဲ့ skincare 
+                   တွေကိုလဲ အရေပြားထဲကို ထိထိရောက်ရောက်စိမ့်၀င်သွားအောင် လုပ်ဆောင်ပေးပါတယ်...
+                   Alcohol-free toner မို့လို့ sensitive skin တွေအထိအသုံးပြုလို့ရပါတယ်...
+                </p>
+                <h4>400ml Price: <span class="mmkPrice" data-id="lancomeToner400ml">0</span> MMK</h4>
+                <h4>50ml Price: <span class="mmkPrice" data-id="lancomeToner50ml">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+            <div class = "col-2">
+                <img src="images/toniquedechur.jpg">
+            </div>
+            <div class = "col-2">
+                <h4>Tonique Douceur</h4>
+                    <p>
+                        အဆီပြန်အဆီဖု sensitive skinသမားတွေ နဲ့ 
+                        ကိုယ်က oily skin ကိုမှ ချွေးပေါက်ပါကျယ်နေလို့ စိတ်ညစ်နေရင် ဒီ Toner ဘူးပြာလေးကို သုံးပါ
+                        အဆီပြန်သူ combination skin ဝက်ခြံ acne prone skin တွေအတွက်ကောင်းတယ်...
+                        လောလောဆယ် တော့ 50ml size ပဲ ရှိပါတယ်
+                    </p>
+                    <h4>50ml Price: <span class="mmkPrice" data-id="lancomeToner50ml">0</span> MMK</h4>
+                    <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+            </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/double Essence.webp">
+        </div>
+        <div class = "col-2">
+            <h4>Double Essence</h4>
+                <p>Beech Bud Extract ပါဝင်လို့ ဆဲလ်သေတွေကိုဖယ်ရှားပေးတယ် နောက်ပြီး အစိုဓာတ်ကိုဖြည့်တင်းပေးပါတယ်။
+                    မျက်နှာအသားအရေကို gentle exfoliate လုပ်ပေးတယ်၊ 
+                    ချွေးပေါက်လေးတွေကို ကျဉ်းစေတယ်၊ 
+                    အဆီပြန်ခြင်းကို ထိန်းချုပ်ပေးတယ် နောက်ပြီးတော့ 
+                    အစိုဓာတ်ကို ဖြည့်တင်းပေးတယ်
+                    4steps clarifying action မို့ အသားအရေကို ကြည်လင်လာစေကာ baby skin လေးလိုရရှိစေမှာပါ။
+                </p>
+                <h4>150ml Price: <span class="mmkPrice" data-id="dEss150ml">0</span> MMK</h4>
+                <h4>50ml Price: <span class="mmkPrice" data-id="dEss50ml">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/clarifique emulsion.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Clarifique Emulsion</h4>
+                <p>
+                   တင်းတိပ် အမဲစက်သမားများအတွက် အရမ်းသင့်တော်တဲ့ Lancôme ရဲ့ watery emulsion ပါ..
+                   Skin ရဲ့သဘာ၀အတိုင်း ဆဲလ်သစ်တွေဖြစ်ပေါ်မှု မြန်ဆန်စေပြီး skin texture ပြန်လည်ထိန်းညှိပေးတယ်
+                   မျက်နှာမှာရှိတဲ့အစက်အပြောက်များကိုလျှော့ချပေးနိုင်ပြီး Vitamin C+ Niacinamide ပါ၀င်ခြင်းက အသားရေကိုကြည်စေတယ်...
+                   Watery မို့တခြားနို့ရည်တွေထက် စိမ့်၀င်လွယ်တယ်..
+                </p>
+                <h4>75ml Price: <span class="mmkPrice" data-id="clarifiqueEmulsion">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/hydrazenGel.png">
+        </div>
+        <div class = "col-2">
+            <h4>Hydrazen Gel Cream</h4>
+            <p>Oily skin နဲ့ အသင့်တော်ဆုံးပါ.. 
+                အဆီပြန်တာ လုံးဝ မရှိပဲ Hydration ကိုကြာကြာ ထိန်းပေးနိုင်ပါတယ်.. 
+                light weight Gel texture မို့ Dry skin ဆိုရင်တော့ အသားခြောက်တာ မသက်သာစေပါဘူး..
+            </p>
+            <h4>15ml Price: <span class="mmkPrice" data-id="hydrazen15ml">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/hydrazenCream.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hydrazen Cream</h4>
+            <p>
+                Creamy ဖြစ်ပြီး အသားကို စိုနေစေမယ့် texture လေးပါ..
+                normal to dry skin အတွက် ဆို Hydration ပိုပြီး ကြာကြာ ထိန်းပေးတဲ့ အပြင် လိမ်းပြီးရင်လဲစိုစိုလေး ဖြစ်ပါတယ်..
+            </p>
+            <h4>15ml Price: <span class="mmkPrice" data-id="hydrazen15ml">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/HydrazenGelorCream.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Hydrazen Gel or Cream?</h4>
+            <p>ဘယ်ဟာ ရွေးရမယ် မသိရင် ပုံထဲက အကြမ်းဖျဉ်း ယှဉ်ပြထားတာ လေးကိုကြည့်ပြီး ရွေးနော်..
+                လောလောဆယ် တော့ 15ml size ပဲ ရှိပါတယ်
+            </p>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/Gel Eclat Cleanser.webp" height="350px">
+        </div>
+        <div class = "col-2">
+            <h4>Gel Eclat Cleansing Foam</h4>
+                <p>
+                    ဆားဝက်ခြံ အရမ်းသက်သာ ပြီး ချွေးပေါက် ညီတဲ့ Facial cleanser လေးပါ.. 
+                    Gel Nettoyant မို့ ပုံမှန် nettoyant တွေလို အသားခြောက်မသွားဘူး… 
+                    Rose နဲ့ lotus flower extract ပါလို့ Anti oxidant ကြွယ်ဝ တယ်..
+                </p>
+                <h4>125ml Price: <span class="mmkPrice" data-id="gelEclat">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/tripleSerum.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Renergie Triple Serum</h4>
+            <p>
+                effect ၃မျိုးရတဲ့ triple serum...Serum တခုထဲနဲ့ all in one အဆင်ပြေတာမို့ လူကြိုက်အရမ်းကိုများပါတယ်
+                သူက triple serum ဆိုတဲ့အတိုင်း အပေါက်လေးသုံးပေါက်ပါပီး Niacinamide, hyaluronic acid နဲ့ Ferulic acid သုံးမျိုးပါပါတယ်
+                အမဲစက်တွေသက်သာစေပြီး skin ကိုကြည်လင်စေပါတယ်...
+                     
+            </p>
+            <h4>50ml Price: <span class="mmkPrice" data-id="tripleSerum">0</span> MMK</h4>
+            <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/LancomeEyeSerum5ml.webp">
+        </div>
+        <div class = "col-2">
+            <h4>Genifique Yeux Eye Serum</h4>
+            <p>မျက်ကွင်းညိုတာ မျက်လုံးတဝိုက် ခြောက်သွေ့ခြင်းနဲ့အရေးအကြောင်းတွေကိုကာကွယ်ပေးပြီးမျက်တောင်လေးတွေကိုရှည်လာစေတဲ့eye serumလေးပါ....
+                လောလောဆယ် တော့ 5ml size ပဲ ရှိပါတယ်</p>
+                <h4>Price: <span class="mmkPrice" data-id="LancomeEye5ml">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/lancomeEyeCream5ml.jpg">
+        </div>
+        <div class = "col-2">
+            <h4>Genifique Yeux Eye Cream</h4>
+            <p>မျက်ကွင်းညိုတာ မျက်လုံးတဝိုက် ခြောက်သွေ့ခြင်း နဲ့ အရေးအကြောင်းတွေကိုကာကွယ်ပေး တဲ့eye creamလေးပါ....
+                လောလောဆယ် တော့ 5ml size ပဲ ရှိပါတယ်</p>
+                <h4>Price: <span class="mmkPrice" data-id="LancomeEye5ml">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-2">
+            <img src="images/absoluSoftcream.jfif">
+        </div>
+        <div class = "col-2">
+            <h4>Absolu Soft Cream</h4>
+            <p>Lancome Luxury Series ပါ...အသားအ‌ရေကို ကြည်လင်စေပြီး ရေဓာတ်ဖြည့်ပေးလို့ စိုပြေ
+                ဝင်းပစေပါတယ်.. အ‌ရေးပြားကို ဆွဲပြီး ပင့်တင်လိုက်သလို တင်းရင်းသွားပြီး Glow စေတာပါ...
+                လောလောဆယ် တော့ 15ml size ပဲ ရှိပါတယ်
+            </p>
+            <h4>Price in MMK: <span class="mmkPrice" data-id="absolucream">0</span> MMK</h4>
+                <a href="tel:+959785096113" class="btn">Call us to buy &#128222;</a>
+        </div>
+    </div>
+</div>
+<!-------------------footer------------------>
+<div class="footer">
+    <div class="footer-row">
+        <div style = "padding-bottom: 10px;">
+            <h5>
+                မြရည်နန္ဒာအိမ်ယာ | မမ 28, တိုက် 30 |
+                အခန်း 5, 45 x 118 (C) ဒေါင့်
+                MANDALAY
+            </h5>
+            <h5>Phone - 09785096113 </h5>
+        </div>
+        <div>
+            <p>Follow us
+                <a href="https://www.facebook.com/yoursconfidante">
+                    <img src="images/FBicon.webp" height = "25px" width="25px">  
+                </a>
+            </p>
+        </div>
+        <div>
+            <p>Call us
+                <a href="tel:+959785096113"> 
+                    <img src="images/phCall.png" height = "25px" width="25px">  
+                </a>
+            </p>
+        </div>
+        <div>
+            <p>Chat with us
+                    <a href = "viber://chat?number=+959785096113">
+                    <img src="images/viberIcon.png" height = "30px" width="30px">  
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-------------------js for toggle menu ------------------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+
+    document.getElementById("backtoTop").addEventListener("click", function() {
+    document.getElementById("header").scrollIntoView({ behavior: "smooth" });
+});
+</script>
+
+<script>
+    function updatePrices() {
+        const priceMapping = JSON.parse(localStorage.getItem('priceMapping'));
+
+        if (priceMapping) {
+            const mmkPrices = document.querySelectorAll('.mmkPrice');
+            mmkPrices.forEach(function(mmkPriceElement) {
+                const itemId = mmkPriceElement.getAttribute('data-id');
+                if (priceMapping[itemId]) {
+                    mmkPriceElement.innerText = parseFloat(priceMapping[itemId]).toLocaleString('en-US', { maximumFractionDigits: 0 });
+                }
+            });
+        }
+    }
+
+    window.onload = updatePrices;
+</script>
+<script src="scripts.js"></script>
+</body>
+</html>

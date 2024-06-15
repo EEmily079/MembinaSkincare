@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membina Skincare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+</head>
+<body>
+    <div class="header" id = "header">
+        <div class="container">
+            <div class = "navbar">
+                <div class ="logo">
+                    <img src="images/Logo.png" width = "250px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="haircare.html">Hair Care</a></li>
+                        <li><a href="skincare.html">Skin Care</a></li>
+                        <li><a href="bodycare.html">Body Care</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width = "30px" height="30px">
+                <img src="images/menu.png" class = "menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        </div> 
+<!----------------------------------Price List ----------------------------------------->     
+<div style = "padding-top: 150px; text-align: center;">
+    <h1>SGD > MMK</h1>
+    <input type="number" id="currency" placeholder="Enter value" style="font-size: 2em; text-align: center;">
+</div>
+<div style = "text-align: center;">
+    <button id="calculate" style="font-size: 1em; padding: 10px 20px; margin-top: 20px;">Calculate</button>
+</div>
+
+
+
+
+
+
+<!---------------------price check area---------------------------------------------->
+    <div class="item">
+<div class = "row">
+<!---------------------------------Body Care Price------------------------------------------------>
+    <div class = "col-2">
+        <h2>Body care Price </h2>
+        <p>stIvesLotion Price in SGD: <span class="sgdPrice" data-id="stIvesLotion">11</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>stIvesShowerGel Price in SGD: <span class="sgdPrice" data-id="stIvesShowerGel">11</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>vsLotion Price in SGD: <span class="sgdPrice" data-id="vsLotion">9</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>doveScrub Price in SGD: <span class="sgdPrice" data-id="doveScrub">11</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>femFreshWash Price in SGD: <span class="sgdPrice" data-id="femFreshWash">8</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+<!---------------------------------other Hair Price------------------------------------------------>
+        <h2>Other Hair Care Price </h2>
+        <p>MoroccanOil Price in SGD: <span class="sgdPrice" data-id="MoroccanOil">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Fino Hair Serum Price in SGD: <span class="sgdPrice" data-id="finoHairSerum">12</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Fino Hair Mask Price in SGD: <span class="sgdPrice" data-id="finoHairMask">12</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Argan Oil Price in SGD: <span class="sgdPrice" data-id="arganOil">14</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Growell 500ml Price in SGD: <span class="sgdPrice" data-id="g500ml">26</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Growell 200ml Price in SGD: <span class="sgdPrice" data-id="g200ml">16</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Growell 75ml Price in SGD: <span class="sgdPrice" data-id="g75ml">5</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Kaminomoto Price in SGD: <span class="sgdPrice" data-id="kaminomoSilver">22.5</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Vatika Shampoo Price in SGD: <span class="sgdPrice" data-id="vatikaShampoo">10</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Vatika Conditioner Price in SGD: <span class="sgdPrice" data-id="vatikaConditioner">8.7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Vatika hair Oil Price in SGD: <span class="sgdPrice" data-id="vatikaOil">7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Vatika hair cream Price in SGD: <span class="sgdPrice" data-id="vatikaCream">7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+<!---------------------------------Dyson Price------------------------------------------------>
+        <h2>Dyson Price </h2>
+        <p>Air Wrap Price in SGD: <span class="sgdPrice" data-id="awPrice">849</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>SS Dryer Price in SGD: <span class="sgdPrice" data-id="ssDryer">649</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Air Strait Price in SGD: <span class="sgdPrice" data-id="airStrait">899</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>SS Dryer Nurul Price in SGD: <span class="sgdPrice" data-id="nurul">899</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Corrale Price in SGD: <span class="sgdPrice" data-id="corrale">799</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+    </div>
+<!---------------------------------Kerastase Hair Care Price------------------------------------------------>
+    <div class = "col-2">
+        <h2>Kerastase Price </h2>
+        <p>Shampoo 250ml: <span class="sgdPrice" data-id="shampoo250ml">35</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Shampoo 500ml: <span class="sgdPrice" data-id="shampoo500ml">63</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Shampoo 1000ml: <span class="sgdPrice" data-id="shampoo1000ml">110</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Hair Mask 200ml: <span class="sgdPrice" data-id="hairMask200ml">60</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Fondant: <span class="sgdPrice" data-id="fondant">45</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Hair Oil 100ml: <span class="sgdPrice" data-id="hairOil100ml">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Hair Oil 15ml: <span class="sgdPrice" data-id="hairOil15ml">7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Genesis Hair Serum: <span class="sgdPrice" data-id="Ghairserum">72</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Overnight Serum: <span class="sgdPrice" data-id="8hrSerum">80</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Densite Spray: <span class="sgdPrice" data-id="DensiteSpray">85</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Specifique Ampoules: <span class="sgdPrice" data-id="sAmpoules">5.70</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Densifique Ampoules: <span class="sgdPrice" data-id="dAmpoules">7.30</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+
+
+        <p>Chornologsite 250ml: <span class="sgdPrice" data-id="choShampoo250ml">40</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Chornologsite 1000ml: <span class="sgdPrice" data-id="choShampoo1000ml">120</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Chornologsite Hair Mask: <span class="sgdPrice" data-id="chohairMask200ml">70</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Chornologsite Perfume Hair Oil: <span class="sgdPrice" data-id="perfumehairOil100ml">75</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+    </div>
+ </div>
+<!--------------------------------Lancome Price ---------------------------->
+<div class = "row">
+  <div class = "col-2">
+        <h2>Lancome Price </h2>
+        <p>Genigique Serum 115ml: <span class="sgdPrice" data-id="genifique115ml">165</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Genigique Serum 100ml: <span class="sgdPrice" data-id="genifique100ml">145</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Genigique Serum 75ml: <span class="sgdPrice" data-id="genifique75ml">120</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Genigique Serum 50ml: <span class="sgdPrice" data-id="genifique50ml">95</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Genigique Serum 7ml:  <span class="sgdPrice" data-id="genifique7ml">7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Toner 400ml: <span class="sgdPrice" data-id="lancomeToner400ml">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Toner 50ml: <span class="sgdPrice" data-id="lancomeToner50ml">6.5</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Double Essence 50ml: <span class="sgdPrice" data-id="dEss50ml">14</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        
+        <p>Clarifique Emulsion: <span class="sgdPrice" data-id="clarifiqueEmulsion">88</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        
+        <p>Hydrazen 15ml: <span class="sgdPrice" data-id="hydrazen15ml">10</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Gel Eclat Cleansing Foam: <span class="sgdPrice" data-id="gelEclat">29.50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        
+        <p>Renergie Triple Serum: <span class="sgdPrice" data-id="tripleSerum">140</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Lancome Eye 5ml: <span class="sgdPrice" data-id="LancomeEye5ml">7</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>absolu Softcream 15ml: <span class="sgdPrice" data-id="absolucream">27</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+
+    </div>
+    <!--------------Eucerin Price-------------------------->
+    <div class = "col-2">
+        <h2>Eucerin Price </h2>
+        <p>Spoltess Cleanser: <span class="sgdPrice" data-id="eucerinCleanser">28</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Booster Essence: <span class="sgdPrice" data-id="boosterEss">49</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Booster Serum: <span class="sgdPrice" data-id="boosterSerum">68</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Spotless Day: <span class="sgdPrice" data-id="spotlessCream">51</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Spotless Night:  <span class="sgdPrice" data-id="spotlessCream">51</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Spot Eraser:  <span class="sgdPrice" data-id="spotEraser">17</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Spotless BDLotion:  <span class="sgdPrice" data-id="spotlessBDLotion">27</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Hayluron Booster:<span class="sgdPrice" data-id="hayluronBooster">55</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Hayluron Day Cream:<span class="sgdPrice" data-id="hayluronCream">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Hayluron Night Cream:<span class="sgdPrice" data-id="hayluronCream">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Hayluron Eye:<span class="sgdPrice" data-id="hayluronEye">24</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>3D Serum:<span class="sgdPrice" data-id="3DSerum">55</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>3D Day Cream:<span class="sgdPrice" data-id="3DCream">50</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+        <p>Eucerin Toner:<span class="sgdPrice" data-id="eucerinToner">28</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>AI Clearing:<span class="sgdPrice" data-id="aiClearing">42</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>Triple Effect Serum:<span class="sgdPrice" data-id="tripleEffectSerum">42</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+        <p>AI Matt:<span class="sgdPrice" data-id="aiMatt">30</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+
+
+
+        <p>Eucerin Toner:<span class="sgdPrice" data-id="eucerinUV">30.60</span> SGD</p>
+        <p style = "padding-bottom: 20px;">Price in MMK: <span class="mmkPrice">0</span> MMK</p>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<!--------------------------------Toggle Menu ---------------------------->
+<script>
+        var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    var dyson = document.getElementById("dyson");
+
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+<!-----------Price Update input currency ----------------->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('calculate').addEventListener('click', function() {
+        const currencyRate = parseFloat(document.getElementById('currency').value); // Get the input value
+
+        function convertPrices() {
+            const sgdPrices = document.querySelectorAll('.sgdPrice');
+            const priceMapping = {};
+
+            sgdPrices.forEach(function(sgdPriceElement) {
+                const sgdPrice = parseFloat(sgdPriceElement.innerText);
+                const mmkPrice = sgdPrice * currencyRate;
+                const mmkPriceElement = sgdPriceElement.parentElement.nextElementSibling.querySelector('.mmkPrice');
+                mmkPriceElement.innerText = `MMK ${mmkPrice.toLocaleString('en-US', { maximumFractionDigits: 0 })}`;
+
+                // Save the mapping in an object
+                const itemId = sgdPriceElement.getAttribute('data-id');
+                priceMapping[itemId] = mmkPrice;
+            });
+
+            // Save the currency rate and price mapping in local storage
+            localStorage.setItem('currencyRate', currencyRate);
+            localStorage.setItem('priceMapping', JSON.stringify(priceMapping));
+        }
+
+        convertPrices(); // Call the function when the button is clicked
+    });
+});
+</script>
+
+<!-----------Price Update fixed ----------------->
+<!-- <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const currencyRate = parseFloat(document.getElementById('currency').innerText); // Fixed currency rate from SGD to MMK
+
+        function convertPrices() {
+            const sgdPrices = document.querySelectorAll('.sgdPrice');
+            const priceMapping = {};
+
+            sgdPrices.forEach(function(sgdPriceElement) {
+                const sgdPrice = parseFloat(sgdPriceElement.innerText);
+                const mmkPrice = sgdPrice * currencyRate;
+                // const mmkPriceElement = sgdPriceElement.nextElementSibling;
+                const mmkPriceElement = sgdPriceElement.parentElement.nextElementSibling.querySelector('.mmkPrice');
+                mmkPriceElement.innerText = `MMK ${mmkPrice.toLocaleString('en-US', { maximumFractionDigits: 0 })}`;
+
+                // Save the mapping in an object
+                const itemId = sgdPriceElement.getAttribute('data-id');
+                priceMapping[itemId] = mmkPrice;
+            });
+
+            // Save the currency rate and price mapping in local storage
+            localStorage.setItem('currencyRate', currencyRate);
+            localStorage.setItem('priceMapping', JSON.stringify(priceMapping));
+        }
+
+        convertPrices(); // Call the function on page load
+    });
+</script> -->
+</body>
+</html>
